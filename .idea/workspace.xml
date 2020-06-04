@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37d7b296-302d-44fd-a9cb-1f5ccbc038d2" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/data/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataMonitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/dataMonitorUI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linestack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/indexUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/indexUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/indexUI.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/indexUI.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +62,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.linestack">
     <configuration name="dataMonitor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="20200603PyUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="linestack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="20200603PyUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,7 +117,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linestack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.linestack" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.mainUI" />
         <item itemvalue="Python.dataMonitorUI" />
         <item itemvalue="Python.dataMonitor" />
-        <item itemvalue="Python.demo" />
       </list>
     </recent_temporary>
   </component>
@@ -228,26 +221,26 @@
     </state>
     <state x="668" y="317" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1013@0.0.1920.1013" timestamp="1591203423043" />
     <state x="501" y="276" key="#com.intellij.tools.ToolEditorDialog/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591236906330" />
-    <state width="1419" height="207" key="GridCell.Tab.0.bottom" timestamp="1591256524972">
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom" timestamp="1591271504839">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1894" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1013@0.0.1920.1013" timestamp="1591204769761" />
-    <state width="1419" height="207" key="GridCell.Tab.0.bottom/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591256524972" />
-    <state width="1419" height="207" key="GridCell.Tab.0.center" timestamp="1591256524971">
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591271504839" />
+    <state width="1419" height="207" key="GridCell.Tab.0.center" timestamp="1591271504837">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1894" height="315" key="GridCell.Tab.0.center/0.0.1920.1013@0.0.1920.1013" timestamp="1591204769761" />
-    <state width="1419" height="207" key="GridCell.Tab.0.center/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591256524971" />
-    <state width="1419" height="207" key="GridCell.Tab.0.left" timestamp="1591256524970">
+    <state width="1419" height="207" key="GridCell.Tab.0.center/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591271504837" />
+    <state width="1419" height="207" key="GridCell.Tab.0.left" timestamp="1591271504837">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1894" height="315" key="GridCell.Tab.0.left/0.0.1920.1013@0.0.1920.1013" timestamp="1591204769761" />
-    <state width="1419" height="207" key="GridCell.Tab.0.left/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591256524970" />
-    <state width="1419" height="207" key="GridCell.Tab.0.right" timestamp="1591256524972">
+    <state width="1419" height="207" key="GridCell.Tab.0.left/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591271504837" />
+    <state width="1419" height="207" key="GridCell.Tab.0.right" timestamp="1591271504838">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1894" height="315" key="GridCell.Tab.0.right/0.0.1920.1013@0.0.1920.1013" timestamp="1591204769761" />
-    <state width="1419" height="207" key="GridCell.Tab.0.right/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591256524972" />
+    <state width="1419" height="207" key="GridCell.Tab.0.right/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591271504838" />
     <state width="1419" height="259" key="GridCell.Tab.1.bottom" timestamp="1591250907300">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
@@ -273,10 +266,10 @@
     </state>
     <state x="483" y="130" key="SettingsEditor/0.0.1920.1013@0.0.1920.1013" timestamp="1591203424683" />
     <state x="283" y="48" key="SettingsEditor/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591236908708" />
-    <state x="473" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591251824649">
+    <state x="473" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591271484223">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state x="473" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591251824649" />
+    <state x="473" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591271484223" />
     <state x="493" y="234" width="934" height="556" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591203510806">
       <screen x="0" y="0" width="1920" height="1013" />
     </state>
