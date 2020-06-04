@@ -12,8 +12,8 @@ class Ui_Frame(object):
     def setupUi(self, Frame):
         Frame.setObjectName("Frame")
         Frame.resize(721, 551)
-        Frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
-        Frame.setFrameShadow(QtWidgets.QFrame.Raised)
+        # Frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        # Frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.layoutWidget = QtWidgets.QWidget(Frame)
         self.layoutWidget.setGeometry(QtCore.QRect(30, 30, 641, 471))
         self.layoutWidget.setObjectName("layoutWidget")

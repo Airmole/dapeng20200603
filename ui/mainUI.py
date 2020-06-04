@@ -11,7 +11,10 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 import dataMonitor
+import historyQuery
 import index
+import lineStackMonitor
+import setting
 
 
 class Ui_Frame(object):
@@ -25,9 +28,9 @@ class Ui_Frame(object):
         self.pushButton_5 = QtWidgets.QPushButton(Frame)
         self.pushButton_5.setObjectName("pushButton_5")
         self.gridLayout.addWidget(self.pushButton_5, 1, 1, 1, 1)
-        self.pushButton_6 = QtWidgets.QPushButton(Frame)
-        self.pushButton_6.setObjectName("pushButton_6")
-        self.gridLayout.addWidget(self.pushButton_6, 1, 2, 1, 1)
+        # self.pushButton_6 = QtWidgets.QPushButton(Frame)
+        # self.pushButton_6.setObjectName("pushButton_6")
+        # self.gridLayout.addWidget(self.pushButton_6, 1, 2, 1, 1)
         self.pushButton_4 = QtWidgets.QPushButton(Frame)
         self.pushButton_4.setObjectName("pushButton_4")
         self.gridLayout.addWidget(self.pushButton_4, 1, 0, 1, 1)
@@ -49,11 +52,14 @@ class Ui_Frame(object):
         _translate = QtCore.QCoreApplication.translate
         Frame.setWindowTitle(_translate("Frame", "Frame"))
         self.pushButton_5.setText(_translate("Frame", "历史查询"))
-        self.pushButton_6.setText(_translate("Frame", "打印"))
+        self.pushButton_5.clicked.connect(self.openHistoryQuery)
+        # self.pushButton_6.setText(_translate("Frame", "打印"))
         self.pushButton_4.setText(_translate("Frame", "设置"))
+        self.pushButton_4.clicked.connect(self.openSetting)
         self.pushButton_2.setText(_translate("Frame", "监测数据"))
         self.pushButton_2.clicked.connect(self.openDataMonitor)
         self.pushButton_3.setText(_translate("Frame", "监测曲线"))
+        self.pushButton_3.clicked.connect(self.openLineStackMonitor)
         self.pushButton.setText(_translate("Frame", "环境控制"))
         self.pushButton.clicked.connect(self.openEnvControl)
 
@@ -64,3 +70,15 @@ class Ui_Frame(object):
     def openDataMonitor(self):
         self.dataMonitorUI = dataMonitor.win()
         self.dataMonitorUI.show()
+
+    def openLineStackMonitor(self):
+        self.lineStackMonitorUI = lineStackMonitor.ChartView()
+        self.lineStackMonitorUI.show()
+
+    def openSetting(self):
+        self.openSettingUI = setting.win()
+        self.openSettingUI.show()
+
+    def openHistoryQuery(self):
+        self.openHistoryQueryUI = historyQuery.win()
+        self.openHistoryQueryUI.show()

@@ -4,6 +4,7 @@
 
 import sys
 
+import pandas as pd
 from PyQt5.QtChart import QChartView, QChart, QLineSeries, QLegend, \
     QCategoryAxis
 from PyQt5.QtCore import Qt, QPointF, QRectF, QPoint
@@ -86,8 +87,17 @@ class ChartView(QChartView):
         super(ChartView, self).__init__(*args, **kwargs)
         self.resize(800, 600)
         self.setRenderHint(QPainter.Antialiasing)  # 抗锯齿
+
+        data = pd.read_csv("data/data.csv")
+        list = data.values.tolist()
+
+        xAxisArr = []
+        for i in range(30):
+            xAxisArr.append(list[i*60][2][-5:])
+            # print(xAxisArr[i])
+
         # 自定义x轴label
-        self.category = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
+        self.category = xAxisArr
         self.initChart()
 
         # 提示widget
@@ -208,17 +218,25 @@ class ChartView(QChartView):
         series.setPen(pen)
 
     def initChart(self):
-        self._chart = QChart(title="折线图堆叠")
+        self._chart = QChart(title="农业大棚数据监测曲线")
         self._chart.setAcceptHoverEvents(True)
         # Series动画
         self._chart.setAnimationOptions(QChart.SeriesAnimations)
-        dataTable = [
-            ["邮件营销", [120, 132, 101, 134, 90, 230, 210]],
-            ["联盟广告", [220, 182, 191, 234, 290, 330, 310]],
-            ["视频广告", [150, 232, 201, 154, 190, 330, 410]],
-            ["直接访问", [320, 332, 301, 334, 390, 330, 320]],
-            ["搜索引擎", [820, 932, 901, 934, 1290, 1330, 1320]]
-        ]
+
+        dataTable = [["大棚湿度", []], ["大棚温度", []], ["大棚二氧化碳浓度", []]]
+        data = pd.read_csv("data/data.csv")
+        list = data.values.tolist()
+        for i in range(30):
+            dataTable[0][1].append(list[i*60][3])
+            dataTable[1][1].append(list[i*60][4])
+            dataTable[2][1].append(list[i*60][5])
+
+
+        # dataTable = [
+        #     ["邮件营销", [120, 132, 101, 134, 90, 230, 210]],
+        #     ["直接访问", [320, 332, 301, 334, 390, 330, 320]],
+        #     ["搜索引擎", [820, 932, 901, 934, 1290, 1330, 1320]]
+        # ]
         for series_name, data_list in dataTable:
             series = QLineSeries(self._chart)
             for j, v in enumerate(data_list):
@@ -229,20 +247,20 @@ class ChartView(QChartView):
             self._chart.addSeries(series)
         self._chart.createDefaultAxes()  # 创建默认的轴
         axisX = self._chart.axisX()  # x轴
-        axisX.setTickCount(7)  # x轴设置7个刻度
+        axisX.setTickCount(30)  # x轴设置30个刻度
         axisX.setGridLineVisible(False)  # 隐藏从x轴往上的线条
         axisY = self._chart.axisY()
-        axisY.setTickCount(7)  # y轴设置7个刻度
-        axisY.setRange(0, 1500)  # 设置y轴范围
+        axisY.setTickCount(10)  # y轴设置10个刻度
+        axisY.setRange(0, 100)  # 设置y轴范围
         # 自定义x轴
         axis_x = QCategoryAxis(
             self._chart, labelsPosition=QCategoryAxis.AxisLabelsPositionOnValue)
-        axis_x.setTickCount(7)
+        axis_x.setTickCount(30)
         axis_x.setGridLineVisible(False)
         min_x = axisX.min()
         max_x = axisX.max()
-        step = (max_x - min_x) / (7 - 1)  # 7个tick
-        for i in range(0, 7):
+        step = (max_x - min_x) / (30 - 1)  # 7个tick
+        for i in range(0, 30):
             axis_x.append(self.category[i], min_x + i * step)
         self._chart.setAxisX(axis_x, self._chart.series()[-1])
         # chart的图例

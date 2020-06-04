@@ -1,10 +1,10 @@
 from PyQt5.QtWidgets import QApplication, QWidget
 # from PyQt5 import QtCore, QtGui, QtWidgets
-from ui import mainUI  #导入py文件中的类#ss是ui转换后的py文件，Ui_Form是文件中的类名
+from ui import historyQueryUI  # 导入py文件中的类#ss是ui转换后的py文件，Ui_Form是文件中的类名
 
 import sys
 
-class win(QWidget,mainUI.Ui_Frame):  #继承类
+class win(QWidget,historyQueryUI.Ui_Frame):  #继承类
     def __init__(self):
         super().__init__()
         self.resize(300, 300)
