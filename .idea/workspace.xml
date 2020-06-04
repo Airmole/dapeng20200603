@@ -20,16 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37d7b296-302d-44fd-a9cb-1f5ccbc038d2" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/historyQuery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/historyQueryUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/historyQueryUI.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/newSeetingUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/newSeetingUI.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linestack.py" beforeDir="false" afterPath="$PROJECT_DIR$/lineStackMonitor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/mainUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/mainUI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +55,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
