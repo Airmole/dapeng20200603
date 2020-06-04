@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d7b296-302d-44fd-a9cb-1f5ccbc038d2" name="默认更改列表" comment="" />
+    <list default="true" id="37d7b296-302d-44fd-a9cb-1f5ccbc038d2" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/data/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataMonitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/dataMonitorUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/indexUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/indexUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/indexUI.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/indexUI.ui" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,24 +42,35 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1comOloftjSjO4m78AyOAsKyHTg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/ui" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.app">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="dataMonitor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="20200603PyUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -43,7 +82,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataMonitor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -52,7 +91,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dataMonitorUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="20200603PyUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/dataMonitorUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="20200603PyUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,7 +124,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/index.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="20200603PyUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mainUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="20200603PyUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/mainUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,22 +177,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.index" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.mainUI" />
+        <item itemvalue="Python.dataMonitorUI" />
+        <item itemvalue="Python.dataMonitor" />
+        <item itemvalue="Python.demo" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -105,51 +198,85 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="697" y="242" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591204440923">
-      <screen x="0" y="0" width="1920" height="1013" />
+    <state x="523" y="151" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1591236902413">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="523" y="151" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591236902413" />
+    <state x="523" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591252628316">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="697" y="242" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1013@0.0.1920.1013" timestamp="1591204440923" />
-    <state x="668" y="317" key="#com.intellij.tools.ToolEditorDialog" timestamp="1591203423043">
-      <screen x="0" y="0" width="1920" height="1013" />
+    <state x="523" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591252628316" />
+    <state x="501" y="276" key="#com.intellij.tools.ToolEditorDialog" timestamp="1591236906330">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="668" y="317" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1013@0.0.1920.1013" timestamp="1591203423043" />
-    <state width="1894" height="315" key="GridCell.Tab.0.bottom" timestamp="1591204769761">
-      <screen x="0" y="0" width="1920" height="1013" />
+    <state x="501" y="276" key="#com.intellij.tools.ToolEditorDialog/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591236906330" />
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom" timestamp="1591256524972">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1894" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1013@0.0.1920.1013" timestamp="1591204769761" />
-    <state width="1894" height="315" key="GridCell.Tab.0.center" timestamp="1591204769761">
-      <screen x="0" y="0" width="1920" height="1013" />
+    <state width="1419" height="207" key="GridCell.Tab.0.bottom/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591256524972" />
+    <state width="1419" height="207" key="GridCell.Tab.0.center" timestamp="1591256524971">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1894" height="315" key="GridCell.Tab.0.center/0.0.1920.1013@0.0.1920.1013" timestamp="1591204769761" />
-    <state width="1894" height="315" key="GridCell.Tab.0.left" timestamp="1591204769761">
-      <screen x="0" y="0" width="1920" height="1013" />
+    <state width="1419" height="207" key="GridCell.Tab.0.center/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591256524971" />
+    <state width="1419" height="207" key="GridCell.Tab.0.left" timestamp="1591256524970">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1894" height="315" key="GridCell.Tab.0.left/0.0.1920.1013@0.0.1920.1013" timestamp="1591204769761" />
-    <state width="1894" height="315" key="GridCell.Tab.0.right" timestamp="1591204769761">
-      <screen x="0" y="0" width="1920" height="1013" />
+    <state width="1419" height="207" key="GridCell.Tab.0.left/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591256524970" />
+    <state width="1419" height="207" key="GridCell.Tab.0.right" timestamp="1591256524972">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1894" height="315" key="GridCell.Tab.0.right/0.0.1920.1013@0.0.1920.1013" timestamp="1591204769761" />
-    <state width="1894" height="315" key="GridCell.Tab.1.bottom" timestamp="1591204769762">
-      <screen x="0" y="0" width="1920" height="1013" />
+    <state width="1419" height="207" key="GridCell.Tab.0.right/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591256524972" />
+    <state width="1419" height="259" key="GridCell.Tab.1.bottom" timestamp="1591250907300">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1894" height="315" key="GridCell.Tab.1.bottom/0.0.1920.1013@0.0.1920.1013" timestamp="1591204769762" />
-    <state width="1894" height="315" key="GridCell.Tab.1.center" timestamp="1591204769762">
-      <screen x="0" y="0" width="1920" height="1013" />
+    <state width="1419" height="259" key="GridCell.Tab.1.bottom/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591250907300" />
+    <state width="1419" height="259" key="GridCell.Tab.1.center" timestamp="1591250907300">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1894" height="315" key="GridCell.Tab.1.center/0.0.1920.1013@0.0.1920.1013" timestamp="1591204769762" />
-    <state width="1894" height="315" key="GridCell.Tab.1.left" timestamp="1591204769761">
-      <screen x="0" y="0" width="1920" height="1013" />
+    <state width="1419" height="259" key="GridCell.Tab.1.center/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591250907300" />
+    <state width="1419" height="259" key="GridCell.Tab.1.left" timestamp="1591250907299">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1894" height="315" key="GridCell.Tab.1.left/0.0.1920.1013@0.0.1920.1013" timestamp="1591204769761" />
-    <state width="1894" height="315" key="GridCell.Tab.1.right" timestamp="1591204769762">
-      <screen x="0" y="0" width="1920" height="1013" />
+    <state width="1419" height="259" key="GridCell.Tab.1.left/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591250907299" />
+    <state width="1419" height="259" key="GridCell.Tab.1.right" timestamp="1591250907300">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1894" height="315" key="GridCell.Tab.1.right/0.0.1920.1013@0.0.1920.1013" timestamp="1591204769762" />
-    <state x="483" y="130" key="SettingsEditor" timestamp="1591203424683">
-      <screen x="0" y="0" width="1920" height="1013" />
+    <state width="1419" height="259" key="GridCell.Tab.1.right/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591250907300" />
+    <state x="283" y="48" key="SettingsEditor" timestamp="1591236908708">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="483" y="130" key="SettingsEditor/0.0.1920.1013@0.0.1920.1013" timestamp="1591203424683" />
+    <state x="283" y="48" key="SettingsEditor/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591236908708" />
+    <state x="473" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591251824649">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="473" y="68" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.810/-1920.-59.1920.1057@0.23.1440.810" timestamp="1591251824649" />
     <state x="493" y="234" width="934" height="556" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591203510806">
       <screen x="0" y="0" width="1920" height="1013" />
     </state>
